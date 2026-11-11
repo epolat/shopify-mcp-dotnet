@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ShopifyMcp.Core/ShopifyMcp.Core.csproj" />
+    <Project Path="src/ShopifyMcp.Infrastructure/ShopifyMcp.Infrastructure.csproj" />
+    <Project Path="src/ShopifyMcp.Server/ShopifyMcp.Server.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ShopifyMcp.Tests/ShopifyMcp.Tests.csproj" />
+  </Folder>
+</Solution>

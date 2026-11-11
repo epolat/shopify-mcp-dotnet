@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "shopify": {
+      "command": "C:\\path\\to\\publish\\shopify-mcp.exe",
+      "env": {
+        "SHOPIFY_STORE_DOMAIN": "my-store.myshopify.com",
+        "SHOPIFY_CLIENT_ID": "your-client-id",
+        "SHOPIFY_CLIENT_SECRET": "your-client-secret",
+        "SHOPIFY_ALLOW_WRITES": "false",
+        "TELEGRAM_BOT_TOKEN": "",
+        "TELEGRAM_CHAT_ID": ""
+      }
+    }
+  }
+}

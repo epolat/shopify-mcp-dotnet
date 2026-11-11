@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "shopify": {
+      "command": "dotnet",
+      "args": ["run", "--project", "src/ShopifyMcp.Server", "--no-build", "-c", "Release"],
+      "env": {
+        "SHOPIFY_STORE_DOMAIN": "${SHOPIFY_STORE_DOMAIN}",
+        "SHOPIFY_CLIENT_ID": "${SHOPIFY_CLIENT_ID}",
+        "SHOPIFY_CLIENT_SECRET": "${SHOPIFY_CLIENT_SECRET}",
+        "TELEGRAM_BOT_TOKEN": "${TELEGRAM_BOT_TOKEN:-}",
+        "TELEGRAM_CHAT_ID": "${TELEGRAM_CHAT_ID:-}"
+      }
+    }
+  }
+}
